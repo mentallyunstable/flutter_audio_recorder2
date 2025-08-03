@@ -26,6 +26,7 @@ apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion 30
+    namespace = "flutter_audio_recorder2"
 
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
